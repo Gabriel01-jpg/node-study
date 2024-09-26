@@ -1,0 +1,29 @@
+{
+  "name": "codeminer-test",
+  "version": "1.0.0",
+  "description": "Codeminer case to test my development skills",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "ts-node-dev src/api.ts",
+    "test": "npx jest"
+  },
+  "author": "gabriel-lima",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.13",
+    "jest": "^29.7.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.21.0",
+    "pg-promise": "^11.9.1",
+    "ts-jest": "^29.2.5"
+  }
+}

@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  database:
+    image: postgres
+    container_name: database_codeminer
+    restart: always
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=codeminer
+    ports:
+      - 5432:5432
